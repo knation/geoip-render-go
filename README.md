@@ -13,7 +13,7 @@ This project relies on the following environment variables:
 
 | ENV Variable | Description                                                                | Required | Default   |
 |--------------|----------------------------------------------------------------------------|----------|-----------|
-| `GEO_PATH`   | The location of your Maxmind GeoIP database (e.g., `./GeoLite2-City.mmdb`) | Yes      | None      |
+| `GEO_FILE`   | The location of your Maxmind GeoIP database (e.g., `./GeoLite2-City.mmdb`) | Yes      | None      |
 | `MODE`       | The mode to launch the application in.                                     | No      | "release" |
 | `PORT`       | The port for the web service to listen on.                                 | No      | 3000      |
 
