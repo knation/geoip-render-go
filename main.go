@@ -29,7 +29,7 @@ func main() {
     port = "3000"
   }
 
-  log.Printf("Starting `ipgeo` service in '%s' mode...\n", serviceMode)
+  log.Printf("Starting `geoip` service in '%s' mode...\n", serviceMode)
 
   // Set the run mode of gin (release/debug)
   gin.SetMode(serviceMode)
