@@ -39,6 +39,10 @@ func main() {
   // Recovery middleware recovers from any panics and writes a 500 if there was one.
 	router.Use(gin.Recovery())
 
+  router.GET("/healthz", func (c *gin.Context) {
+    c.String(200, "OK")
+  })
+
 	router.GET("/:ip", handler)
 
   srv := &http.Server{

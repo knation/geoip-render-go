@@ -44,3 +44,4 @@ The web service listens for requests to `/:ipaddress`.
 ## Notes
 
 - This project DOES NOT log web requests. It only prints status logs. If you want to log each request, you can add it to the Go Gin logger.
+- The web service responds to a `200` status code on `/healthz`, to be used as a health check.
